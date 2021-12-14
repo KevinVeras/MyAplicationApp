@@ -13,6 +13,7 @@
     <string name="menu_slideshow">Medico</string>
     <string name="menu_mascota">Mascota</string>
     <string name="menu_dispensador">Dispensador</string>
+    <string name="menu_horario">Horario</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main2">MainActivity2</string>

@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="6dp"
     android:elevation="6dp"
+    android:background="@color/white"
     app:cardUseCompatPadding="true">
 
     <RelativeLayout
@@ -38,25 +39,7 @@
                     android:textColor="#000"
                     android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/tipotext"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/nametext"
-                    android:layout_toRightOf="@+id/imgM"
-                    android:text="Tipo:"
-                    android:textColor="#000"
-                    android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/edadtext"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/tipotext"
-                    android:layout_toRightOf="@+id/imgM"
-                    android:text="Edad:"
-                    android:textColor="#000"
-                    android:textSize="10sp" />
 
             </LinearLayout>
 

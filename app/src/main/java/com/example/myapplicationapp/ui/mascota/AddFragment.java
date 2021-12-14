@@ -1,6 +1,5 @@
-package com.example.myapplicationapp.ui.dispensador;
+package com.example.myapplicationapp.ui.mascota;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -19,7 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.myapplicationapp.R;
-import com.example.myapplicationapp.ui.gallery.GalleryFragment;
+
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
@@ -77,8 +76,6 @@ public class AddFragment extends Fragment {
      */
     // TODO: Rename and change types and number of parameters
     public static AddFragment newInstance(String param1, String param2) {
-
-
         AddFragment fragment = new AddFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -99,7 +96,7 @@ public class AddFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Fragment newFragment = new GalleryFragment();
+
 
         vista=inflater.inflate(R.layout.fragment_add, container, false);
         btn=vista.findViewById(R.id.btnBack);
@@ -149,9 +146,6 @@ public class AddFragment extends Fragment {
                         String pm=item;
                         int cont=item.length();
                         String tot=String.valueOf(cont);
-
-
-
 
                         String pm2=item;
                         String pm3=item;
@@ -247,7 +241,7 @@ public class AddFragment extends Fragment {
     private void insertaDatos(){
 
         vacunas();
-        Fragment newFragment = new GalleryFragment();
+        Fragment newFragment = new MascotaFragment();
         Map<String,Object> map=new HashMap<>();
         map.put("nombre",nombre.getText().toString());
         map.put("tipo",tipo.getText().toString());

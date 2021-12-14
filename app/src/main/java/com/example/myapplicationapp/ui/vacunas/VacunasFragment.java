@@ -1,4 +1,4 @@
-package com.example.myapplicationapp.ui;
+package com.example.myapplicationapp.ui.vacunas;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.myapplicationapp.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link BlankFragment#newInstance} factory method to
+ * Use the {@link VacunasFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BlankFragment extends Fragment {
+public class VacunasFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class BlankFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public BlankFragment() {
+    public VacunasFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class BlankFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BlankFragment.
+     * @return A new instance of fragment VacunasFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static BlankFragment newInstance(String param1, String param2) {
-        BlankFragment fragment = new BlankFragment();
+    public static VacunasFragment newInstance(String param1, String param2) {
+        VacunasFragment fragment = new VacunasFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class BlankFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank, container, false);
+        return inflater.inflate(R.layout.fragment_vacunas, container, false);
     }
 }

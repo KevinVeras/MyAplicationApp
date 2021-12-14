@@ -1,4 +1,4 @@
-package com.example.myapplicationapp.ui.dispensador;
+package com.example.myapplicationapp.ui.mascota;
 
 import android.content.DialogInterface;
 import android.view.LayoutInflater;

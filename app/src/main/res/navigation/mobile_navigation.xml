@@ -12,25 +12,27 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.myapplicationapp.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_mascota"
+        android:name="com.example.myapplicationapp.ui.mascota.MascotaFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_mascota" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.myapplicationapp.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_medico"
+        android:name="com.example.myapplicationapp.ui.medico.MedicoFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_medico" />
     <fragment
         android:id="@+id/nav_vacunas"
-        android:name="com.example.myapplicationapp.ui.BlankFragment"
-        android:label="@string/menu_dispensador"
-        tools:layout="@layout/fragment_blank" />
+        android:name="com.example.myapplicationapp.ui.vacunas.VacunasFragment"
+        android:label="@string/menu_vacunas"
+        tools:layout="@layout/fragment_vacunas" />
+
 
     <fragment
-        android:id="@+id/nav_dispensador"
-        android:name="com.example.myapplicationapp.ui.dispensador.DispensadorFragment"
+        android:id="@+id/nav_Horario"
+        android:name="com.example.myapplicationapp.ui.dispensador.DashboardFragment"
         android:label="@string/menu_dispensador"
-        tools:layout="@layout/fragment_blank" />
+        tools:layout="@layout/fragment_dashboard" />
+
 </navigation>
